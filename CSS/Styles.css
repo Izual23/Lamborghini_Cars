@@ -242,10 +242,14 @@ footer{
 }
 h3{
     margin: 15px;
-    animation-name: h3_Colors;
+    animation-name: h3_animations;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    animation-timing-function: linear;
     animation-duration: 2s;
+    border: solid 3px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
 }
 
 /*CSS de los demas html*/
@@ -802,9 +806,10 @@ h3{
     }
 }
 
-@keyframes h3_Colors {
+@keyframes h3_animations{
     0%{
         color: red;
+        border: solid 3px black;
     }
     10%{
         color: blue;
@@ -820,6 +825,7 @@ h3{
     }
     50%{
         color: cyan;
+        border: solid 10px black;
     }
     60%{
         color: beige;
@@ -835,6 +841,7 @@ h3{
     }
     100%{
         color: red;
+        border: solid 3px black;
     }
 }
 
