@@ -8,6 +8,7 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
 <body>
@@ -36,9 +37,9 @@
             </nav>
         </div>
         <div class="Div5_4">
-            <h1 id="Contact__Us" class="Secundary__Title">Contactenos<img src="../images/MiniLogo.png" alt="MiniLogo"></h1>
+            <h1 id="Contact__Us" class="Secundary__Title animate__animated animate__bounceInLeft">Contactenos<img class="Mini_Logo" src="../images/MiniLogo.png" alt="MiniLogo"></h1>
         </div>
-        <div class="Div5_5">
+        <div class="Div5_5" data-aos="fade-right">
             <form class="Formulary">
                 <fieldset>
                     <section>
@@ -99,5 +100,9 @@
             <h3>Web realizada por Michel Ramirez (CODERHOUSE)</h3>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

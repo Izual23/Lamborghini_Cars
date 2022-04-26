@@ -494,6 +494,10 @@ h3{
     justify-content: center;
 }
 
+.Content_Margin{
+    margin-top: 80px;
+}
+
 .Content2{
     background-color: rgba(51, 51, 51, 0.9);
     text-align: center;
@@ -713,6 +717,13 @@ h3{
     margin-bottom: 10px;
 }
 
+.Mini_Logo{
+    animation-name: MiniLogo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
 /*Media Querist*/
 
 @media (max-width: 768px){
@@ -842,6 +853,15 @@ h3{
     100%{
         color: red;
         border: solid 3px black;
+    }
+}
+
+@keyframes MiniLogo{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(90deg);
     }
 }
 

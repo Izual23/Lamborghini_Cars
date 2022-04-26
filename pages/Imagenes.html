@@ -8,6 +8,7 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
 <body>
@@ -38,11 +39,11 @@
             </nav>
         </div>
         <div class="Div2_4">
-            <h1 class="Secundary__Title">Lamborghinis de la historia</h1>
+            <h1 class="Secundary__Title animate__animated animate__bounceInLeft">Lamborghinis de la historia</h1>
         </div>
         <div class="Div2_5">
             <section>
-                <article class="Cover">
+                <article class="Cover" data-aos="flip-left">
                     <h2 id="ImgDiablo" class="Title">Lamborghini Diablo</h2>
                     <p class="Paragraph">El <em>Lamborghini Diablo</em> es un automóvil superdeportivo de 2 puertas biplaza, que fue construido por el fabricante de automóviles italiano Lamborghini entre los años 1990 y 2001.</p>
                     <p class="Paragraph">Se trata del segundo modelo desarrollado por la casa boloñesa de una saga de superdeportivos que tuvieron su origen en el Lamborghini Countach de 1974 y del cual hereda sus principales características físicas, como la disposición central-trasera de su motor o la apertura de sus "puertas de tijera".</p>
@@ -59,7 +60,7 @@
         </div>
         <div class="Div2_7">
             <section>
-                <article class="Cover">
+                <article class="Cover" data-aos="flip-left">
                     <h2 id="ImgMurcielago" class="Title">Lamborghini Murcielago</h2>
                     <p class="Paragraph">El <em>Lamborghini Murciélago</em> es un automóvil superdeportivo diseñado y producido por el fabricante italiano Lamborghini en su fábrica de Sant'Agata Bolognese, con motor central-trasero montado longitudinalmente y tracción integral.</p> 
                     <p class="Paragraph">Es un dos plazas disponible con carrocerías coupé o roadster de dos puertas de tijera, también conocidas como "Lamborghini Style Doors" o puertas estilo Lamborghini.</p>
@@ -77,7 +78,7 @@
         </div>
         <div class="Div2_9">
             <section>
-                <article class="Cover">
+                <article class="Cover" data-aos="flip-left">
                     <h2 id="ImgReventon" class="Title">Lamborghini Reventon Roadster</h2>
                     <p class="Paragraph">El Lamborghini Reventón es un automóvil superdeportivo de 2 puertas de tijera biplaza con motor central-trasero montado longitudinalmente y tracción total, producido por el fabricante italiano Lamborghini entre 2007 y 2010.</p>
                     <p class="Paragraph">En 2009, Lamborghini presentó la versión descapotable: el Reventón Roadster de la que producirían 15 unidades, que utiliza el mismo motor V12 del Murciélago LP670-4 SV con 670 CV (661 HP; 493 kW).</p> 
@@ -102,5 +103,9 @@
             <h3>Web realizada por Michel Ramirez (CODERHOUSE)</h3>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
