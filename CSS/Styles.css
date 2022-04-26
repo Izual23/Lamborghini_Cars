@@ -864,11 +864,3 @@ h3{
         transform: rotateY(90deg);
     }
 }
-
-/*Transform: RotateX (70deg);
-  Transform: RotateY (70deg);
-  Transform: RotateZ (90deg);
-
-                  alto - ancho
-  Transform: ScaleX (2,1);
-  Transform: ScaleY (2,1);*/
