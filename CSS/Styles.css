@@ -129,6 +129,13 @@
     padding: 10px;
 }
 
+.Logo{
+    animation-name: Logo_Loop;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
 body{
     background-image: url(../images/Background.jpg);
     background-attachment: fixed;
@@ -235,6 +242,10 @@ footer{
 }
 h3{
     margin: 15px;
+    animation-name: h3_Colors;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
 }
 
 /*CSS de los demas html*/
@@ -782,8 +793,49 @@ h3{
     transform: scale(1.2,1.2);
 }
 
-.Logo:hover{
-    Transform: RotateY(70deg);
+@keyframes Logo_Loop{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(90deg);
+    }
+}
+
+@keyframes h3_Colors {
+    0%{
+        color: red;
+    }
+    10%{
+        color: blue;
+    }
+    20%{
+        color: green;
+    }
+    30%{
+        color: yellow;
+    }
+    40%{
+        color: purple;
+    }
+    50%{
+        color: cyan;
+    }
+    60%{
+        color: beige;
+    }
+    70%{
+        color: deeppink;
+    }
+    80%{
+        color: chocolate;
+    }
+    90%{
+        color: black;
+    }
+    100%{
+        color: red;
+    }
 }
 
 /*Transform: RotateX (70deg);
