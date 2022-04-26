@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coches Lamborghini (Coder)</title>
     <link rel="shortcut icon" href="../Lamborghini/images/Icon.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Styles.css">
 </head>
 <body>
     <div class="Grider_1">
         <div class="Div1_1">
             <header class="MainHeader">
-                <img class="HeaderContent1" src="../Lamborghini/images/Banner.jpg" alt="Banner">
+                <img class="HeaderContent1 animate__animated animate__rubberBand" src="../Lamborghini/images/Banner.jpg" alt="Banner">
             </header>
         </div>
         <div class="Div1_2">
@@ -35,9 +39,9 @@
             </nav>
         </div>
         <div class="Div1_4">
-            <h1 id="MainTitle">Coches Lamborghini</h1>
+            <h1 id="MainTitle" class="animate__animated animate__bounceInLeft">Coches Lamborghini</h1>
         </div>
-        <div class="Div1_5">
+        <div class="Div1_5" data-aos="flip-left">
             <article class="Cover">
                 <h2 id="History" class="Title">Historia</h2>
                 <p class="Paragraph">Terminada la Segunda Guerra Mundial, <em>Ferruccio Lamborghini</em>, que había servido en un destacamento de transporte para el Ejército Italiano, comenzó a comprar sobrantes de vehículos militares.</p>
@@ -54,7 +58,7 @@
             </Article>
         </div>
         <div class="Div1_7">
-            <article class="Cover">
+            <article class="Cover" data-aos="flip-left">
                 <h2 id="Competition" class="Title">Competición</h2>
                 <p class="Paragraph">Lamborghini tuvo una breve participación en el Campeonato Mundial de Fórmula 1.</p> 
                 <p class="Paragraph">Fué motorista desde 1989 a 1993, en concreto con Lola (1989-1990), Lotus (1990), Ligier (1991), Lambo (1991), Venturi (1992), Minardi (1992) y Larrousse (1993) suministrando motores V12 de 3.5 litros diseñados por Mauro Forghieri. En 1991 también construyó chasis para el equipo Modena Team (bajo el nombre de Lambo).</p>
@@ -67,7 +71,7 @@
             </article>
         </div>
         <div class="Div1_9">
-            <article class="Cover">
+            <article class="Cover" data-aos="flip-left">
                 <h2 id="Models" class="Title">Algunos Modelos</h2>
                 <p class="Paragraph">1963 350 GTV (prototipo), 1964 350 GT, 1965 350 GT, Prototipos: 3500 GTZ (Zagato), 350 GTS, 1966 350 GT, 400 GT, Prototipos: 400 GT Flying Star II, 400 GT Monza, 1967 400 GT, Miura P400, Prototipos: Marzal, 1968 400 GT, Miura P400, Espada, Islero, Prototipos: Miura P400 Roadster, 1969 Islero, Miura P400, Espada, 1970 Miura P400 S, Espada 400 GTE, Jarama 400 GT, Prototipos: Miura Jota, Urraco, 1971 Miura P400 S, P400 Miura SV, Espada 400 GTE, Jarama, Prototipos: Countach LP500, 1972 Miura P400 SV, Espada 400 GTE, Jarama, Urraco P250, 1973 Espada Series III, Jarama S, P250 Urraco, Countach LP400.</p>
             </article>
@@ -87,5 +91,9 @@
             <h3>Web realizada por Michel Ramirez (CODERHOUSE)</h3>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

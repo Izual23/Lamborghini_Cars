@@ -791,7 +791,7 @@ h3{
     }
 }
 
-/*Tansforms*/
+/*Hovers & Animations*/
 
 .Border:hover{
     transform: scale(1.2,1.2);
