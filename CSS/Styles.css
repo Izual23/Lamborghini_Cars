@@ -1,0 +1,774 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face{
+    font-family: Motorblock;
+    src: url("../Fonts/Motorblock.ttf");
+}
+
+@font-face{
+    font-family: Squarea;
+    src: url("../Fonts/Squarea\ Regular.ttf");
+}
+
+/*CSS Principal y del index*/
+
+/*Grids index*/
+.Grider_1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.Div1_1{
+    grid-column:2/6;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_2{
+    grid-column:3/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_3{
+    grid-column:2/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_4{
+    grid-column:2/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_5{
+    grid-column: 1/4;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_6{
+    grid-column: 4/7;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.Div1_7{
+    grid-column: 4/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_8{
+    grid-column:1/4;
+    grid-row: 6/7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.Div1_9{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_10{
+    grid-column: 4/7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.Div1_11{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div1_12{
+    grid-row: 9;
+    grid-column: 5/7;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.HeaderContent1{
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    background-image: url(../images/Background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#MainTitle{
+    font-family: Motorblock;
+    font-size: 60px;
+    color: #f2d518;
+    margin: auto;
+}
+
+.Ul1{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-family: Squarea;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#History{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Competition{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Models{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Title{
+    font-family: Squarea;
+    font-size: 30px;
+    color: #f2d518;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+article p{
+    color: #f2d518;
+    font-family: Squarea;
+}
+
+.Cover{
+    background-color: rgba(51, 51, 51, 0.9);
+    margin: 10px;
+    width: 95%;
+}
+
+.Border{
+    background-color: rgba(51, 51, 51, 0.9);
+    width: auto;
+    height: auto;
+    border: solid 3px black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.Paragraph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Content__Cover{
+    width: 500px;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+footer{
+    margin-top: 60px;
+}
+h3{
+    margin: 15px;
+}
+
+/*CSS de los demas html*/
+
+/*Grids Imagenes*/
+.Grider_2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.Div2_1{
+    grid-column:2/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_2{
+    grid-column:3/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_3{
+    grid-column:1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_4{
+    grid-column:2/5;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_5{
+    grid-column: 1/4;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_6{
+    grid-column: 4/6;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_7{
+    grid-column: 3/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_8{
+    grid-column:1/3;
+    grid-row: 6/7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_9{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_10{
+    grid-column: 4/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_11{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div2_12{
+    grid-column: 4/6;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*Grids Videos*/
+.Grider_3{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.Div3_1{
+    grid-column:2/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div3_2{
+    grid-column:3/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div3_3{
+    grid-column:1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div3_4{
+    grid-column:2/5;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div3_5{
+    grid-column: 1/4;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div3_6{
+    grid-column: 1/4;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.Div3_7{
+    grid-column: 3/6;
+    grid-row-start: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div3_8{
+    grid-column:3/6;
+    grid-row: 6/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.Div3_9{
+    grid-column: 1/4;
+    grid-row-start: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div3_10{
+    grid-column: 1/4;
+    grid-row-start: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.Div3_11{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div3_12{
+    grid-column: 4/6;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.Secundary__Title{
+    font-family: Motorblock;
+    font-size: 45px;
+    color: #f2d518;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#VidDiablo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Content{
+    background-color: #333333;
+    padding: 5px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Content2{
+    background-color: rgba(51, 51, 51, 0.9);
+    text-align: center;
+    margin: 15px;
+}
+
+#VidMurcielago{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#VidReventon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Grids Videojuegos*/
+.Grider_4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.Div4_1{
+    grid-column:2/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div4_2{
+    grid-column:3/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div4_3{
+    grid-column:1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div4_4{
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.Div4_5{
+    grid-column: 1/4;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div4_6{
+    grid-column: 3/6;
+    grid-row-start: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div4_7{
+    grid-column: 1/4;
+    grid-row-start: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div4_8{
+    grid-column:2/5;
+    grid-row-start: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div4_9{
+    grid-column: 4/6;
+    grid-row-start: 9;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.Ul3{
+    margin-left: 68rem;
+}
+
+#NFS{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#GTA5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#GT{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ImgDiablo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ImgMurcielago{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ImgReventon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Grids Contacto*/
+.Grider_5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.Div5_1{
+    grid-column:2/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div5_2{
+    grid-column:3/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div5_3{
+    grid-column:1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div5_4{
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.Div5_5{
+    grid-column: 1/3;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.Div5_6{
+    grid-column: 2/5;
+    grid-row-start: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div5_7{
+    grid-column: 4/6;
+    grid-row-start: 7;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.Ul5{
+    margin-left: 1350px;
+}
+
+.Formulary{
+    width: 30rem;
+    margin-left: 15px;
+    border: 1px solid black;
+}
+
+.Contact__Section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Media Querist*/
+
+@media (max-width: 768px){
+    .Grider_1{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_2{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_3{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_4{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_5{ 
+        display: block;
+        width: 100%;
+    }
+
+    .HeaderContent1{
+        width: 95vw;
+        height: auto;
+    }
+    
+    .Ul1{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+    }
+
+    .FootImg{
+        width: 95vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .Grider_1{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_2{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_3{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_4{ 
+        display: block;
+        width: 100%;
+    }
+
+    .Grider_5{ 
+        display: block;
+        width: 100%;
+    }
+
+    .FootImg{
+        width: 95vw;
+        height: auto;
+    }
+}
+}
