@@ -125,11 +125,16 @@
 }
 
 .HeaderContent1{
+    width: auto;
+    height: auto;
     margin: 10px;
     padding: 10px;
 }
 
 .Logo{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
     animation-name: Logo_Loop;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
