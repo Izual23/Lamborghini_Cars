@@ -40,22 +40,22 @@
         <div class="Div5_4">
             <h1 id="Contact__Us" class="Secundary__Title animate__animated animate__bounceInLeft">Contactenos<img class="Mini_Logo" src="../images/MiniLogo.png" alt="MiniLogo"></h1>
         </div>
-        <div class="Div5_5" data-aos="fade-right">
-            <form class="Formulary">
+        <div class="Div5_5 form-check" data-aos="fade-right">
+            <form class="Formulary form-control">
                 <fieldset>
                     <section>
-                        <section class="Contact__Section">
+                        <section class="Contact__Section ">
                             <legend class="Contact__Section">Formulario de Contacto</legend>
                             <label for="Nombre">Nombre</label>
-                            <input type="text" name="Nombre">
+                            <input class="form-control" type="text" name="Nombre">
                         </section>
                         <section class="Contact__Section">
                             <label for="Telefono">Teléfono</label>
-                            <input type="number" name="Telefono">
+                            <input class="form-control" type="number" name="Telefono">
                         </section>
                         <section class="Contact__Section">
                             <label for="Email">Email</label>
-                            <input type="email" name="Email" id="Email">
+                            <input class="form-control" type="email" name="Email" id="Email">
                         </section>
                         <section class="Contact__Section">
                             <section>
@@ -69,22 +69,23 @@
                             <section>
                                 <label for="Nuevos Coches">Asunto</label>
                             </section>
-                            <input type="checkbox" value="N" name="Nuevos Coches">Nuevos Coches
-                            <input type="checkbox" value="V" name="Videojuegos">Videojuegos
-                            <input type="checkbox" value="A" name="Accesorios">Accesorios
-                            <input type="checkbox" value="P" name="Precios">Precios
-                            <input type="checkbox" value="E" name="Empleos">Empleos
+                            <input class="Check" type="checkbox" value="N" name="Nuevos Coches">Nuevos Coches
+                            <input class="Check" type="checkbox" value="V" name="Videojuegos">Videojuegos
+                            <input class="Check" type="checkbox" value="A" name="Accesorios">Accesorios
+                            <input class="Check" type="checkbox" value="P" name="Precios">Precios
+                            <input class="Check" type="checkbox" value="E" name="Empleos">Empleos
                         </section>
                         <section class="Contact__Section">
                             <label for="">¿Posees un Lamborghini?</label>
-                            <select name="">
+                            <select class="form-select" aria-label="Default select example" name="">
+                                <option selected value="">Responda aquí</option>
                                 <option value="Si">Si</option>
                                 <Option value="No">No</Option>
                                 <Option value="NTI">No te importa</Option>
                             </select>
                         </section>
                         <section class="Contact__Section">
-                            <textarea name="Mensaje" Placeholder="Si elegiste latercera opción, ¿Por que no nos importa?" id="" cols="30" rows="10"></textarea><br>
+                            <textarea class="form-control" name="Mensaje" Placeholder="Si elegiste latercera opción, ¿Por que no nos importa?" id="" cols="30" rows="10"></textarea><br>
                             <input type="submit"name="" id="" value="Enviar">
                             <input type="reset"name="" id="" value="Restablecer">
                         </section>

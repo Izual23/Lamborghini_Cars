@@ -707,9 +707,14 @@ h3{
 }
 
 .Formulary{
-    width: 30rem;
+    width: 37rem;
     margin-left: 15px;
     border: 1px solid black;
+}
+
+.Check{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .Contact__Section{
