@@ -240,7 +240,8 @@ article p{
 footer{
     margin-top: 60px;
 }
-h3{
+
+.Colors{
     margin: 15px;
     animation-name: h3_animations;
     animation-iteration-count: infinite;
@@ -495,7 +496,7 @@ h3{
 }
 
 .Content_Margin{
-    margin-top: 80px;
+    margin: 80px;
 }
 
 .Content2{
