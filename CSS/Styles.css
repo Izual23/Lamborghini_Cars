@@ -153,7 +153,14 @@ body{
     font-family: Motorblock;
     font-size: 60px;
     color: #f2d518;
-    margin: auto;
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Main_Nav{
+    margin-top: 20px;
 }
 
 .Ul1{
@@ -224,9 +231,18 @@ article p{
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: auto;
     transition: transform 0.5s;
+}
+
+.Card_Principal{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    align-content: center;
 }
 
 .Paragraph{
@@ -244,6 +260,10 @@ article p{
 
 footer{
     margin-top: 60px;
+}
+
+.FootImg{
+    margin-top: 80px;
 }
 
 .Colors{
@@ -480,6 +500,7 @@ footer{
     font-size: 45px;
     color: #f2d518;
     margin: 15px;
+    margin: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -498,10 +519,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.Content_Margin{
-    margin: 80px;
 }
 
 .Content2{
@@ -774,6 +791,7 @@ footer{
         flex-direction: column;
         justify-items: start;
     }
+
 
     .FootImg{
         width: 95vw;
