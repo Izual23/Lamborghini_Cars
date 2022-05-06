@@ -1,0 +1,23 @@
+h1 {
+  font-family: Motorblock;
+  font-size: 45px;
+  color: #f2d518;
+  margin: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.Back h2 {
+  font-family: Squarea;
+  font-size: 30px;
+  color: #f2d518;
+  margin: 15px; }
+
+.Back article {
+  padding: 5px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .Back article:hover {
+    background-color: red; }

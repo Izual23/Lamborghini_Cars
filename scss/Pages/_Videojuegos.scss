@@ -1,0 +1,29 @@
+h1{
+    font-family: Motorblock;
+    font-size: $Title-size;
+    color: $Text-Color;
+    margin: $Title-Margin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Back{
+    h2{
+        font-family: Squarea;
+        font-size: $Text-Size;
+        color: $Text-Color;
+        margin: $Text-Margin;
+    }
+    article{
+        padding: $Video-Pad;
+        border: $Video-Border;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        &:hover{
+            background-color: $Video-Hover;
+        }
+    }
+}
+
