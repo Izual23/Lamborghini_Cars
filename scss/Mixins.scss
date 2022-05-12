@@ -1,0 +1,24 @@
+@mixin Style($Section){
+    @if $Section == head{
+        background-color: rgba($color: #000000, $alpha: 0.8);
+    }
+    @else if $Section == corp{
+        background-color: rgba($color: #2c2c2c, $alpha: 0.9);
+    }
+    @else if $Section == last{
+        background-color: black;
+        color: white
+    }
+}
+
+.top{
+    @include Style(head);
+}
+
+.mid{
+    @include Style(corp);
+}
+
+.bot{
+    @include Style(last);
+}

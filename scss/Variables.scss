@@ -6,10 +6,12 @@ $Title-Margin: 80px;
 $Text-Size: 30px;
 $Text-Margin: 15px;
 
-$Video-Border: solid 1px black;
+$Video-Border: solid 2px black;
 $Video-Pad: 5px;
 
 $Video-Hover: red;
+
+/*agregado*/
 
 @font-face{
     font-family: Font-1;
@@ -20,3 +22,5 @@ $Video-Hover: red;
     font-family: Font-2;
     src: url("../Fonts/Squarea\ Regular.ttf");
 }
+
+$A: auto;

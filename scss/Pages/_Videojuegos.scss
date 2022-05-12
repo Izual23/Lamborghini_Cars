@@ -18,6 +18,7 @@ h1{
     article{
         padding: $Video-Pad;
         border: $Video-Border;
+        margin-bottom: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -25,4 +26,13 @@ h1{
             background-color: $Video-Hover;
         }
     }
+}
+
+/*agregado*/
+
+.HeaderContent1{
+    width: $A;
+    height: $A;
+    margin: 10px;
+    padding: 10px;
 }
