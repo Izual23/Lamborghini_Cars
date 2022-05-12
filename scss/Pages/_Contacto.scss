@@ -1,0 +1,30 @@
+.Formulary{
+    @include FCol;
+    margin-bottom: 40px;
+}
+
+.Check{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Contact__Section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Mini_Logo{
+    animation-name: MiniLogo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes MiniLogo{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(90deg);
+    }
+}

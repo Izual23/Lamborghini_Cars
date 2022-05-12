@@ -1,0 +1,145 @@
+.HeaderContent1{
+    width: $A;
+    height: $A;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Main_Nav{
+    margin-top: $General-Margin;
+}
+
+
+.Logo{
+    @include FRow;
+    animation-name: Logo_Loop;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes Logo_Loop{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(90deg);
+    }
+}
+
+a{
+    text-decoration: $N;
+}
+
+ul{
+    list-style-type: $N;
+}
+
+li{
+    font-family: Font-2;
+    font-size: 20px;
+    font-weight: $B;
+}
+
+body{
+    background-image: url(../images/Background.jpg);
+    background-attachment: fixed;
+    background-position: $C;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    font-family: Font-1;
+    font-size: $Title-size;
+    color: $Text-Color;
+    margin: $Title-Margin;
+    @include FRow;
+}
+
+.BackC{
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+}
+
+.Title{
+    font-family: Font-2;
+    font-size: $Title-size;
+    color: $Text-Color;
+    @include FRow;
+    margin: 10px;
+}
+
+.Cover{
+    margin: $General-Margin;
+    width: 95%;
+}
+
+#History{
+    @include FRow;
+}
+
+#Competition{
+    @include FRow;
+}
+
+#Models{
+    @include FRow;
+}
+
+.Paragraph{
+    font-family: Font-2;
+    color: $Text-Color;
+    padding-top: $General-Padding;
+    padding-bottom: $General-Padding;
+    text-align: $C;
+}
+
+.Border{
+    background-color: rgba(19, 19, 19, 0.9);
+    width: $A;
+    height: $A;
+    border: $Border;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: $C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: $A;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.5s;
+}
+
+article p{
+    color: map-get($TextMap, "1" );
+    font-family: Squarea;
+    margin-top: $General-Margin;
+    text-align: $C;
+}
+
+.Card_Principal{
+    height: 100%;
+    @include FCol;
+    justify-items: stretch;
+    align-content: $C;
+}
+
+.Content__Cover{
+    width: 500px;
+    padding: $Border-Pad;
+    border-radius: 15px;
+    border: $Border;
+}
+
+.Border:hover{
+    transform: scale(1.2,1.2);
+}
+
+.Icons{
+    @include FRow;
+    justify-content: space-around;
+    align-items: $C;
+    text-align: $C;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

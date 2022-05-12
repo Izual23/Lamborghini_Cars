@@ -1,24 +1,31 @@
 @mixin Style($Section){
     @if $Section == head{
         background-color: rgba($color: #000000, $alpha: 0.8);
+        padding-bottom: 20px;
     }
     @else if $Section == corp{
         background-color: rgba($color: #2c2c2c, $alpha: 0.9);
     }
     @else if $Section == last{
         background-color: black;
-        color: white
+        color: rgb(75, 75, 75)
     }
 }
 
-.top{
-    @include Style(head);
+@mixin Introduction{
+    padding: $General-Padding;
+    margin-bottom: $General-Margin;
+    text-align: $C;
 }
 
-.mid{
-    @include Style(corp);
+@mixin FRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: $C;
 }
 
-.bot{
-    @include Style(last);
+@mixin FCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: $C;
 }

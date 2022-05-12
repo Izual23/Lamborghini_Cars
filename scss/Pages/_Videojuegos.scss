@@ -1,14 +1,4 @@
-h1{
-    font-family: Font-1;
-    font-size: $Title-size;
-    color: $Text-Color;
-    margin: $Title-Margin;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.Back{
+.Backs{
     h2{
         font-family: Font-2;
         font-size: $Text-Size;
@@ -16,12 +6,10 @@ h1{
         margin: $Text-Margin;
     }
     article{
-        padding: $Video-Pad;
-        border: $Video-Border;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        background-color: $Border-BColor;
+        padding: $Border-Pad;
+        border: $Border;
+        @include FRow;
         &:hover{
             background-color: $Video-Hover;
         }
@@ -30,9 +18,57 @@ h1{
 
 /*agregado*/
 
-.HeaderContent1{
-    width: $A;
-    height: $A;
-    margin: 10px;
-    padding: 10px;
+.Telling2{
+    font-family: Font-2;
+}
+
+.Telling3{
+    @extend .Telling2;
+    font-size: 20px;
+}
+
+.Back{
+    @extend .Backs;
+    margin-bottom: $General-Margin;
+}
+
+#MainTitle{
+    @include FRow;
+    font-family: Font-1;
+    font-size: 60px;
+    color: $Text-Color;
+    margin: 80px;
+}
+
+article{
+    @include Introduction;
+}
+
+#VidDiablo{
+    @include FRow;
+}
+
+#VidMurcielago{
+    @include FRow;
+}
+
+#VidReventon{
+    @include FRow;
+}
+
+.top{
+    @include Style(head);
+}
+
+.mid{
+    @include Style(corp);
+}
+
+.bot{
+    @include Style(last);
+}
+
+.Final{
+    @include Introduction;
+    font-size: 10px;
 }

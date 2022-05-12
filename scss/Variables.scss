@@ -1,13 +1,19 @@
 $Text-Color: #f2d518;
 
+$General-Margin: 20px;
+$General-Padding: 20px;
+
 $Title-size: 45px;
 $Title-Margin: 80px;
 
 $Text-Size: 30px;
 $Text-Margin: 15px;
 
-$Video-Border: solid 2px black;
-$Video-Pad: 5px;
+
+
+$Border: solid 2px black;
+$Border-Pad: 5px;
+$Border-BColor: #333333;
 
 $Video-Hover: red;
 
@@ -24,3 +30,8 @@ $Video-Hover: red;
 }
 
 $A: auto;
+$B: bold;
+$N: none;
+$C: center;
+$S: start;
+$E: end;

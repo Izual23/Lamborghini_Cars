@@ -1,0 +1,16 @@
+#NFS{
+    @include FRow;
+}
+
+#GTA5{
+    @include FRow;
+}
+
+#GT{
+    @include FRow;
+}
+
+.Content2{
+    text-align: $C;
+    color: map-get($TextMap, "1");
+}

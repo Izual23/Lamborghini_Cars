@@ -1,1 +1,7 @@
-/*agregado*/
+$TextMap:("1": #a8a378, "2": #e6d432, "3": #ffec40);
+
+@each $Fill, $Rain in $TextMap{
+    .Telling#{$Fill}{
+        color: $Rain;
+    }
+}
