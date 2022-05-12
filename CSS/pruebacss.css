@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Font-1;
+  src: url("../Fonts/Motorblock.ttf"); }
+
+@font-face {
+  font-family: Font-2;
+  src: url("../Fonts/Squarea Regular.ttf"); }
+
 h1 {
-  font-family: Motorblock;
+  font-family: Font-1;
   font-size: 45px;
   color: #f2d518;
   margin: 80px;
@@ -8,7 +16,7 @@ h1 {
   justify-content: center; }
 
 .Back h2 {
-  font-family: Squarea;
+  font-family: Font-2;
   font-size: 30px;
   color: #f2d518;
   margin: 15px; }
