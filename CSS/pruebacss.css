@@ -171,6 +171,15 @@ article p {
   flex-direction: row;
   justify-content: center; }
 
+.Telling1 {
+  color: #a8a378; }
+
+.Telling2, .Telling3 {
+  color: #e6d432; }
+
+.Telling3 {
+  color: #ffec40; }
+
 #NFS {
   display: flex;
   flex-direction: row;

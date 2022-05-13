@@ -1,0 +1,10 @@
+Agregados 
+
+
+05/12/2022:
+Nuevos archivos SCSS (Maps, Mixins)
+Utilización de Map, Map-Get, Mixin, Extend.
+Nuevas variables.
+SCSS utilizado completamente sin la necesidad de página CSS independiente.
+Nuevas clases y etiquétas para el HTML.
+Mejora en la organización del código HTML.

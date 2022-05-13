@@ -1,3 +1,9 @@
+@each $Fill, $Rain in $TextMap{
+    .Telling#{$Fill}{
+        color: $Rain;
+    }
+}
+
 #NFS{
     @include FRow;
 }
