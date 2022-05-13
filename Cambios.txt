@@ -7,4 +7,5 @@ Utilización de Map, Map-Get, Mixin, Extend.
 Nuevas variables.
 SCSS utilizado completamente sin la necesidad de página CSS independiente.
 Nuevas clases y etiquétas para el HTML.
+Nuevo diseño de <Body> y <Footer> para el sitio.
 Mejora en la organización del código HTML.
