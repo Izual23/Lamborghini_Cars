@@ -1,4 +1,7 @@
-/*agregado*/
+* {
+  margin: 0%;
+  padding: 0%; }
+
 @font-face {
   font-family: Font-1;
   src: url("../Fonts/Motorblock.ttf"); }
@@ -203,7 +206,6 @@ article p {
   .Backs article:hover, .Back article:hover {
     background-color: red; }
 
-/*agregado*/
 .Telling2, .Telling3 {
   font-family: Font-2; }
 
