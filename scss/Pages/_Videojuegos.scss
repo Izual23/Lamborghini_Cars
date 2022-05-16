@@ -30,14 +30,6 @@
     margin-bottom: $General-Margin;
 }
 
-#MainTitle{
-    @include FRow;
-    font-family: Font-1;
-    font-size: 60px;
-    color: $Text-Color;
-    margin: 80px;
-}
-
 article{
     @include Introduction;
 }
