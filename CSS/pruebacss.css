@@ -19,6 +19,9 @@
 .Telling3 {
   color: #ffec40; }
 
+.Body-Pad {
+  padding-top: 50px; }
+
 .HeaderContent1 {
   width: auto;
   height: auto;
@@ -223,15 +226,6 @@ article p {
 
 .Back {
   margin-bottom: 20px; }
-
-#MainTitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: Font-1;
-  font-size: 60px;
-  color: #f2d518;
-  margin: 80px; }
 
 article {
   padding: 20px;
