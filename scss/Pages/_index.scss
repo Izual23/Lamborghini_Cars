@@ -133,15 +133,8 @@ article p{
     text-align: $C;
 }
 
-.Card_Principal{
-    height: 100%;
-    @include FCol;
-    justify-items: stretch;
-    align-content: $C;
-}
-
 .Content__Cover{
-    width: 500px;
+    width: 250px;
     padding: $Border-Pad;
     border-radius: 15px;
     border: $Border;
