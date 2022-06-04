@@ -177,6 +177,17 @@ article p {
   flex-direction: row;
   justify-content: center; }
 
+.Card_Principal {
+  height: 100% !important;
+  width: auto; }
+
+img {
+  height: 100% !important;
+  width: auto; }
+
+.Img-Article {
+  height: 250px; }
+
 .Telling1 {
   color: #a8a378; }
 
