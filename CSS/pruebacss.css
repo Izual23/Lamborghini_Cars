@@ -213,6 +213,11 @@ article p {
   text-align: center;
   color: #a8a378; }
 
+.VidVideo {
+  border: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9; }
+
 .Backs h2, .Back h2 {
   font-family: Font-2;
   font-size: 30px;
