@@ -112,8 +112,10 @@ h1{
 }
 
 .Card_Principal{
-    @include FCol;
     height: 100%;
+    @include FCol;
+    justify-items: stretch;
+    align-content: $C;
 }
 
 .Border{
