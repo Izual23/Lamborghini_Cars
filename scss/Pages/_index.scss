@@ -17,7 +17,8 @@
 .HeaderContent1{
     width: $A;
     height: $A;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
@@ -110,6 +111,11 @@ h1{
     text-align: $C;
 }
 
+.Card_Principal{
+    @include FCol;
+    height: 100%;
+}
+
 .Border{
     background-color: rgba(19, 19, 19, 0.9);
     width: $A;
@@ -134,10 +140,11 @@ article p{
 }
 
 .Content__Cover{
-    width: 250px;
+    width: 400px;
     padding: $Border-Pad;
     border-radius: 15px;
     border: $Border;
+    background-color: $Border-BColor;
 }
 
 .Border:hover{

@@ -1,18 +1,21 @@
 #ImgDiablo{
     @include FRow;
+    margin-top: 50px;
 }
 
 #ImgMurcielago{
     @include FRow;
+    margin-top: 50px;
 }
 
 #ImgReventon{
     @include FRow;
+    margin-top: 50px;
 }
 
-.Card_Principal{
-    height: 100% !important;
-    width: auto;
+.Card_Principal2{
+    height: 250px;
+    transition: transform 0.2s;
 }
 
 img{
@@ -21,6 +24,10 @@ img{
 }
 
 .Img-Article{
-    height: 250px;
+    height: 200px;
+    
 }
 
+.Card_Principal2:hover{
+    transform: scale(1.7,1.7);
+}

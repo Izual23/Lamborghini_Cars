@@ -36,7 +36,8 @@
 .HeaderContent1 {
   width: auto;
   height: auto;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px; }
 
 .Main_Nav {
@@ -122,6 +123,12 @@ h1 {
   padding-bottom: 20px;
   text-align: center; }
 
+.Card_Principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
+
 .Border {
   background-color: rgba(19, 19, 19, 0.9);
   width: auto;
@@ -144,10 +151,11 @@ article p {
   text-align: center; }
 
 .Content__Cover {
-  width: 250px;
+  width: 400px;
   padding: 5px;
   border-radius: 15px;
-  border: solid 2px black; }
+  border: solid 2px black;
+  background-color: #333333; }
 
 .Border:hover {
   transform: scale(1.2, 1.2); }
@@ -165,28 +173,34 @@ article p {
 #ImgDiablo {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 50px; }
 
 #ImgMurcielago {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 50px; }
 
 #ImgReventon {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 50px; }
 
-.Card_Principal {
-  height: 100% !important;
-  width: auto; }
+.Card_Principal2 {
+  height: 250px;
+  transition: transform 0.2s; }
 
 img {
   height: 100% !important;
   width: auto; }
 
 .Img-Article {
-  height: 250px; }
+  height: 200px; }
+
+.Card_Principal2:hover {
+  transform: scale(1.7, 1.7); }
 
 .Telling1 {
   color: #a8a378; }
