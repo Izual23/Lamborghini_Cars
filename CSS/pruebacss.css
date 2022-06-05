@@ -123,13 +123,17 @@ h1 {
   padding-bottom: 20px;
   text-align: center; }
 
+.Information {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .Card_Principal {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-items: stretch;
-  align-content: center; }
+  justify-content: center; }
 
 .Border {
   background-color: rgba(19, 19, 19, 0.9);
@@ -140,10 +144,10 @@ h1 {
   overflow: hidden;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 65px;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transition: transform 0.5s; }
 
 article p {
