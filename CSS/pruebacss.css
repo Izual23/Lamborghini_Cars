@@ -307,6 +307,7 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-items: center;
   margin-bottom: 40px; }
 
 .Check {
@@ -328,3 +329,9 @@ article {
     transform: rotateY(0deg); }
   50% {
     transform: rotateY(90deg); } }
+
+.Field {
+  margin-bottom: 20px; }
+
+.form-section {
+  margin-bottom: 20px; }

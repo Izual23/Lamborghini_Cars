@@ -69,63 +69,89 @@
                 <article class="Telling2">Envianos tus datos y contanos sobre vos. Estaremos al tanto de todos los mensajes en la brevedad.</article>
             </div>
         </div>
-        <div class="row mid">
-            <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12" >
-                <div class="form-check" data-aos="fade-right">
-                    <form id="Contact__Us" class="Formulary card card-body bg-secondary">
-                        <fieldset>
-                            <section>
-                                <section class="Contact__Section ">
-                                    <legend class="Contact__Section">Formulario de Contacto</legend>
-                                    <label for="Nombre">Nombre</label>
-                                    <input class="form-control" type="text" name="Nombre">
-                                </section>
-                                <section class="Contact__Section">
-                                    <label for="Telefono">Teléfono</label>
-                                    <input class="form-control" type="number" name="Telefono">
-                                </section>
-                                <section class="Contact__Section">
-                                    <label for="Email">Email</label>
-                                    <input class="form-control" type="email" name="Email" id="Email">
-                                </section>
-                                <section class="Contact__Section">
-                                    <section>
-                                        <label class="Contact__Section" for="Genero">Género</label>
-                                    </section>
-                                    <input type="radio" name="Genero" checked> Masculino
-                                    <input type="radio" name="Genero"> Femenino
-                                    <input type="radio" name="Genero"> Otro
-                                </section>
-                                <section class="Contact__Section">
-                                    <section>
-                                        <label for="Nuevos Coches">Asunto</label>
-                                    </section>
-                                    <input class="Check" type="checkbox" value="N" name="Nuevos Coches">Nuevos Coches
-                                    <input class="Check" type="checkbox" value="V" name="Videojuegos">Videojuegos
-                                    <input class="Check" type="checkbox" value="A" name="Accesorios">Accesorios
-                                    <input class="Check" type="checkbox" value="P" name="Precios">Precios
-                                    <input class="Check" type="checkbox" value="E" name="Empleos">Empleos
-                                </section>
-                                <section class="Contact__Section">
-                                    <label for="">¿Posees un Lamborghini?</label>
-                                    <select class="form-select" aria-label="Default select example" name="">
-                                        <option selected value="">Responda aquí</option>
-                                        <option value="Si">Si</option>
-                                        <Option value="No">No</Option>
-                                        <Option value="NTI">No te importa</Option>
-                                    </select>
-                                </section>
-                                <section class="Contact__Section">
-                                    <textarea class="form-control" name="Mensaje" Placeholder="Si elegiste latercera opción, ¿Por que no nos importa?" id="" cols="30" rows="10"></textarea><br>
-                                    <input type="submit"name="" id="" value="Enviar">
-                                    <input type="reset"name="" id="" value="Restablecer">
-                                </section>
-                            </section>
-                        </fieldset>
-                    </form>
+            <div class="row mid">
+                <div class="col-lg-7 mx-auto">
+                    <div id="Contact__Us" class="Field card mt-2 mx-auto p-4 bg-warning" data-aos="fade-right">
+                        <div class="card-body bg-secondary">
+                            <div class = "container">
+                                <form id="contact-form" role="form">
+                                    <div class="controls">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <legend class="Contact__Section">Formulario de Contacto</legend>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_name">Nombre</label>
+                                                        <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Por favor, coloque su nombre" required="Requerido" data-error="Se requiere nombre.">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_lastname">Apellido</label>
+                                                    <input id="form_lastname" type="text" name="apellido" class="form-control" placeholder="Por favor, coloque su apellido" required="Requerido" data-error="Se requiere apellido.">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_lastname">Teléfono</label>
+                                                    <input id="form_lastname" type="number" name="telefono" class="form-control" placeholder="Por favor, coloque su teléfono" required="Requerido" data-error="Se requiere número telefónico.">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_email">Email</label>
+                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor, coloque su email" required="Requerido" data-error="Se requiere un email válido.">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <section>
+                                                    <label class="Contact__Section" for="Genero">Género</label>
+                                                </section>
+                                                <section>
+                                                    <input type="radio" name="Genero" checked> Masculino
+                                                    <input type="radio" name="Genero"> Femenino
+                                                    <input type="radio" name="Genero"> Otro
+                                                </section>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="form_need">¿Posees un Lamborghini?</label>
+                                                    <select id="form_need" name="need" class="form-control" required="required" data-error="¿Posees un Lamborghini?">
+                                                        <option value="" selected disabled>--Respuesta--</option>
+                                                        <option>Si</option>
+                                                        <option>No</option>
+                                                        <option>No te importa</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="form_message">Comentarios</label>
+                                                    <textarea id="form_message" name="message" class="form-control form-section" placeholder="Si elegiste latercera opción, ¿Por que no nos importa?" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input type="submit" class="Form-Button btn btn-dark btn-send pt-2 btn-block" value="Enviar">
+                                                <input type="reset" class="Form-Button btn btn-dark btn-send pt-2 btn-block" value="Restablecer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-8 col-md-4">
             </div>
         </div>
         <footer class="row bot">
@@ -159,7 +185,7 @@
                 <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
                     <figure class="text-end">
                         <blockquote class="blockquote">
-                            <p>Web realizada por Michel Ramirez<p>
+                            <p>Web realizada por <a class="text-info" href="https://github.com/Izual23">Michel Ramirez</a><p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
                             Estudiante de frontend de <cite title="Source Title">CoderHouse</cite>

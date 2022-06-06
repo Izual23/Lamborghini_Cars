@@ -1,5 +1,6 @@
 .Formulary{
     @include FCol;
+    justify-items: center;
     margin-bottom: 40px;
 }
 
@@ -27,4 +28,12 @@
     50%{
         transform: rotateY(90deg);
     }
+}
+
+.Field{
+    margin-bottom: $General-Margin;
+}
+
+.form-section{
+    margin-bottom: $General-Margin;
 }
