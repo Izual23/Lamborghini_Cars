@@ -1,4 +1,4 @@
-# Primer Prouyecto HTML / CSS
+# Primer Proyecto HTML / CSS
 
 Proyecto inicial para el aprendizaje de de estructura HTML y CSS básico en el cual se usa una temática de coches de la marca Lamborghini.
 
