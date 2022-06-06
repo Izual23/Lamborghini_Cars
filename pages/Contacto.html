@@ -98,8 +98,8 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="form_lastname">Teléfono</label>
-                                                    <input id="form_lastname" type="number" name="telefono" class="form-control" placeholder="Por favor, coloque su teléfono" required="Requerido" data-error="Se requiere número telefónico.">
+                                                    <label for="form_phone">Teléfono</label>
+                                                    <input id="form_phone" type="number" name="telefono" class="form-control" placeholder="Por favor, coloque su teléfono" required="Requerido" data-error="Se requiere número telefónico.">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -114,11 +114,14 @@
                                                 <section>
                                                     <label class="Contact__Section" for="Genero">Género</label>
                                                 </section>
-                                                <section>
-                                                    <input type="radio" name="Genero" checked> Masculino
-                                                    <input type="radio" name="Genero"> Femenino
-                                                    <input type="radio" name="Genero"> Otro
-                                                </section>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault1">Masculino</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                    <label class="form-check-label" for="flexRadioDefault2">Femenino</label>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -126,7 +129,7 @@
                                                 <div class="form-group">
                                                     <label for="form_need">¿Posees un Lamborghini?</label>
                                                     <select id="form_need" name="need" class="form-control" required="required" data-error="¿Posees un Lamborghini?">
-                                                        <option value="" selected disabled>--Respuesta--</option>
+                                                        <option value="" selected disabled>Respuesta</option>
                                                         <option>Si</option>
                                                         <option>No</option>
                                                         <option>No te importa</option>
